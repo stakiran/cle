@@ -107,14 +107,14 @@ AppsKey::run,D:\bin1\\cl.bat
 # Devlopment
 ソースコードなど開発ネタ。
 
-## Linelevelクラスってなんですか？
+## Q: Linelevelクラスってなんですか？
 Ans: cle のメソッド候補として表示させないために、クラスをはさんでいる
 
 Utilも同様。
 
 そういう意味では is_mac() も Util に入れるべきだが、まだできてない。
 
-## libclipboardの実装が車輪の再発明ではないですか？（libclipboard_mac.pyみたいにpyperclip使えばいいのではないですか？）
+## Q: libclipboardの実装が車輪の再発明ではないですか？（libclipboard_mac.pyみたいにpyperclip使えばいいのではないですか？）
 Ans: そう思います。
 
 歴史的経緯を書いておくと、
@@ -124,3 +124,5 @@ Ans: そう思います。
 - pyperclip 使うと楽そうだったので取り入れた
     - windows 側の処理はいまので動いてるしそのまま放置
 
+## Q: 使われていない関数や名前があって汚くないですか？
+Ans: 元々プライベートで使ってたものを（見せられない部分を削って）公開したものなので、粗さが目立つと思います
