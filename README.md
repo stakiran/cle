@@ -4,6 +4,10 @@ CLipboard Editor.
 # Overview
 クリップボードにコピーした文字列を素早く編集するツールです。
 
+# Requirement
+- Windows 10+
+- Python 3.7+
+
 # How to use
 
 ## 基礎その1 - cle.py とメソッド（加工処理）の関係
@@ -76,6 +80,7 @@ remove_scrapbox_link_bracket
 
 - [peco](https://github.com/peco/peco) というインクリメンタルサーチツールを使う
 - [AutoHotkey](https://www.autohotkey.com/) というホットキーツールを使う
+- (下記 xargs の実行には Git For Windows など Linux ツールが必要)
 - 以下のように組み合わせる
     - 1: pecoを使って「メソッドの一覧からインクリメンタルサーチで選ぶ」「選んだメソッドを実行する」コマンドラインをつくる
     - 2: 1 を、Autohotkey から一発で呼び出す
