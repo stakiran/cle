@@ -5,8 +5,17 @@ CLipboard Editor.
 クリップボードにコピーした文字列を素早く編集するツールです。
 
 # Requirement
-- Windows 10+
-- Python 3.7+
+- Windows 10+ or MacOS 10.14(Mojave)+
+- Python 3.6+
+
+# Installation
+Windows:
+
+- pip install pywin32
+
+MacOS
+
+- pip install pyperclip
 
 # How to use
 
